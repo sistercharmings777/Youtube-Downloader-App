@@ -9,7 +9,7 @@ window.title("YOUTUBE VIDEO DOWNLOADER")
 
 youtube_logo = PhotoImage(file="youtube.png")
 window.iconphoto(False, youtube_logo)
-Label(window, text="video Downloader", font=("Arial 30 bold"),bg="lightgreen").pack(padx=5, pady=50)
+Label(window, text="Video Downloader", font=("Arial 30 bold"),bg="lightgreen").pack(padx=5, pady=50)
 
 video_link = StringVar()
 
